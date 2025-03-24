@@ -1,0 +1,62 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="#444444"/>
+  
+  <!-- Laptop Base -->
+  <rect x="100" y="240" width="200" height="20" fill="#222222"/>
+  <rect x="80" y="260" width="240" height="40" fill="#333333"/>
+  
+  <!-- Laptop Screen Frame -->
+  <rect x="100" y="100" width="200" height="140" fill="#222222"/>
+  
+  <!-- Laptop Screen -->
+  <rect x="110" y="110" width="180" height="120" fill="#76c2af"/>
+  
+  <!-- Retro Screen Content -->
+  <!-- Command Line Interface -->
+  <rect x="120" y="120" width="160" height="15" fill="#000000"/>
+  <text x="125" y="132" font-family="monospace" font-size="12" fill="#33ff33">C:\> DIR *.TXT</text>
+  
+  <!-- File Listing -->
+  <text x="125" y="152" font-family="monospace" font-size="10" fill="#33ff33">README.TXT    512 bytes</text>
+  <text x="125" y="167" font-family="monospace" font-size="10" fill="#33ff33">HELLO.TXT     128 bytes</text>
+  <text x="125" y="182" font-family="monospace" font-size="10" fill="#33ff33">RETRO.TXT    1024 bytes</text>
+  <text x="125" y="197" font-family="monospace" font-size="10" fill="#33ff33">GAME.TXT      256 bytes</text>
+  
+  <!-- Command Prompt -->
+  <text x="125" y="217" font-family="monospace" font-size="12" fill="#33ff33">C:\> _</text>
+  
+  <!-- Keyboard -->
+  <rect x="110" y="270" width="180" height="20" fill="#111111"/>
+  
+  <!-- Keyboard Keys -->
+  <rect x="115" y="275" width="10" height="10" fill="#222222"/>
+  <rect x="130" y="275" width="10" height="10" fill="#222222"/>
+  <rect x="145" y="275" width="10" height="10" fill="#222222"/>
+  <rect x="160" y="275" width="10" height="10" fill="#222222"/>
+  <rect x="175" y="275" width="10" height="10" fill="#222222"/>
+  <rect x="190" y="275" width="10" height="10" fill="#222222"/>
+  <rect x="205" y="275" width="10" height="10" fill="#222222"/>
+  <rect x="220" y="275" width="10" height="10" fill="#222222"/>
+  <rect x="235" y="275" width="10" height="10" fill="#222222"/>
+  <rect x="250" y="275" width="10" height="10" fill="#222222"/>
+  <rect x="265" y="275" width="10" height="10" fill="#222222"/>
+  
+  <!-- Floppy Disk Drive -->
+  <rect x="200" y="250" width="30" height="5" fill="#111111"/>
+  
+  <!-- Pixel Grid Overlay (optional) -->
+  <g stroke="#555555" stroke-width="0.5" opacity="0.05">
+    <g id="vertical-lines">
+      <!-- Vertical lines every 10px -->
+      <line x1="0" y1="0" x2="0" y2="400" />
+      <line x1="10" y1="0" x2="10" y2="400" />
+      <!-- ... more lines ... -->
+    </g>
+    <g id="horizontal-lines">
+      <!-- Horizontal lines every 10px -->
+      <line x1="0" y1="0" x2="400" y2="0" />
+      <line x1="0" y1="10" x2="400" y2="10" />
+      <!-- ... more lines ... -->
+    </g>
+  </g>
+</svg>
