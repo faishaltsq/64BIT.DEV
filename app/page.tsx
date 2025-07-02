@@ -35,7 +35,7 @@ export default function Portfolio() {
       <header className="fixed top-0 w-full bg-[#333333] text-[#f5e6c8] z-50 border-b-4 border-[#ff6b6b] px-4 py-3">
         <div className="container mx-auto flex justify-between items-center">
           <h1 className="text-xl md:text-2xl font-bold tracking-wider">
-            64BIT.DEV
+            Portfolio
           </h1>
           <nav className="hidden md:flex space-x-6">
             <button
@@ -89,7 +89,7 @@ export default function Portfolio() {
             className="max-w-3xl"
           >
             <div className="inline-block bg-[#ff6b6b] text-[#f5e6c8] px-3 py-1 mb-4 text-sm">
-              PORTFOLIO 1.0
+              PORTFOLIO 2.0
             </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
               FULL-STACK
@@ -100,20 +100,7 @@ export default function Portfolio() {
               Building digital experiences with a touch of nostalgia.
               Specializing in web, mobile, and IoT development.
             </p>
-            <div className="flex flex-wrap gap-4">
-              <Button
-                onClick={() => scrollToSection(aboutRef)}
-                className="bg-[#333333] text-[#f5e6c8] hover:bg-[#ff6b6b] border-2 border-[#333333]"
-              >
-                LEARN MORE
-              </Button>
-              <Button
-                variant="outline"
-                className="border-2 border-[#333333] text-[#333333] hover:bg-[#333333] hover:text-[#f5e6c8]"
-              >
-                CONTACT ME
-              </Button>
-            </div>
+    
           </motion.div>
         </div>
 
@@ -160,17 +147,15 @@ export default function Portfolio() {
               </h2>
               <div className="space-y-4 mb-8">
                 <p>
-                  Hello! I'm a passionate full-stack developer with expertise in
-                  web programming, mobile development, and IoT solutions.
-                </p>
-                <p>
-                  With over 5 years of experience building digital products, I
-                  combine technical skills with creative problem-solving to
-                  deliver exceptional results.
-                </p>
-                <p>
-                  My approach is rooted in clean code, user-centered design, and
-                  continuous learning.
+                  Hello my name is Faishal, I am an enthusiastic and eager-to-learn Informatics student
+                  with strong skills in programming and application development.
+                  Proficient in Python, JavaScript, and Flutter, with hands-on
+                  experience in building mobile applications, websites, and IoT
+                  integrations. Actively involved in academic projects and
+                  internships, I am accustomed to working in teams, solving
+                  problems, and adapting quickly. I am ready to contribute fresh
+                  ideas and a passion for growth in the dynamic world of
+                  technology.
                 </p>
               </div>
 
@@ -184,7 +169,7 @@ export default function Portfolio() {
                 <div className="border-l-4 border-[#ff6b6b] pl-4">
                   <h3 className="font-bold mb-1">LOCATION</h3>
                   <p className="text-sm text-[#f5e6c8]/80">
-                    Jakarta, Indonesia
+                    Yogyakarta, Indonesia
                   </p>
                 </div>
                 <div className="border-l-4 border-[#ff6b6b] pl-4">
@@ -193,22 +178,24 @@ export default function Portfolio() {
                     Indonesian, English
                   </p>
                 </div>
-                <div className="border-l-4 border-[#ff6b6b] pl-4">
-                  <h3 className="font-bold mb-1">AVAILABILITY</h3>
-                  <p className="text-sm text-[#f5e6c8]/80">
-                    Full-time / Freelance
-                  </p>
-                </div>
               </div>
 
               <div className="flex gap-4 mt-8">
-                <Link href="#" className="text-[#f5e6c8] hover:text-[#ff6b6b]">
+                <Link
+                  href="https://github.com/faishaltsq"
+                  className="text-[#f5e6c8] hover:text-[#ff6b6b]"
+                  target="_blank"
+                >
                   <Github size={24} />
                 </Link>
-                <Link href="#" className="text-[#f5e6c8] hover:text-[#ff6b6b]">
+                <Link
+                  href="https://www.linkedin.com/in/muhammad-faishal-tsaqief-7775b3248/"
+                  className="text-[#f5e6c8] hover:text-[#ff6b6b]"
+                  target="_blank"
+                >
                   <Linkedin size={24} />
                 </Link>
-                <Link href="#" className="text-[#f5e6c8] hover:text-[#ff6b6b]">
+                <Link href="mailto:faishaltsq@gmail.com" target="_blank" className="text-[#f5e6c8] hover:text-[#ff6b6b]">
                   <Mail size={24} />
                 </Link>
               </div>
@@ -239,7 +226,7 @@ export default function Portfolio() {
           <div className="flex flex-col md:flex-row gap-12 items-center">
             <div className="md:w-1/2">
               <div className="inline-block bg-[#ff6b6b] text-[#f5e6c8] px-3 py-1 mb-4 text-sm">
-                EXPERTISE
+                Intermediate
               </div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
                 WEB PROGRAMMING<span className="text-[#ff6b6b]">_</span>
@@ -268,7 +255,7 @@ export default function Portfolio() {
                   <div className="w-12 h-12 flex items-center justify-center bg-[#333333] text-[#f5e6c8] rounded-full">
                     <Code size={24} />
                   </div>
-                  <span className="font-bold">React/Next.js</span>
+                  <span className="font-bold">Vue/Next.js</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 flex items-center justify-center bg-[#333333] text-[#f5e6c8] rounded-full">
@@ -283,10 +270,6 @@ export default function Portfolio() {
                   <span className="font-bold">Full-Stack</span>
                 </div>
               </div>
-
-              <Button className="bg-[#333333] text-[#f5e6c8] hover:bg-[#ff6b6b] border-2 border-[#333333]">
-                VIEW PROJECTS
-              </Button>
             </div>
 
             <div className="md:w-1/2">
@@ -343,7 +326,7 @@ export default function Portfolio() {
           <div className="flex flex-col md:flex-row-reverse gap-12 items-center">
             <div className="md:w-1/2">
               <div className="inline-block bg-[#ff6b6b] text-[#f5e6c8] px-3 py-1 mb-4 text-sm">
-                EXPERTISE
+                Intermediate
               </div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
                 MOBILE DEVELOPMENT<span className="text-[#ff6b6b]">_</span>
@@ -351,7 +334,7 @@ export default function Portfolio() {
               <div className="space-y-4 mb-8">
                 <p>
                   I create native and cross-platform mobile applications that
-                  deliver exceptional user experiences across iOS and Android
+                  deliver exceptional user experiences Android
                   devices.
                 </p>
                 <p>
@@ -365,19 +348,7 @@ export default function Portfolio() {
                   <div className="w-12 h-12 flex items-center justify-center bg-[#333333] text-[#f5e6c8] rounded-full">
                     <Smartphone size={24} />
                   </div>
-                  <span className="font-bold">React Native</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <div className="w-12 h-12 flex items-center justify-center bg-[#333333] text-[#f5e6c8] rounded-full">
-                    <Smartphone size={24} />
-                  </div>
                   <span className="font-bold">Flutter</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <div className="w-12 h-12 flex items-center justify-center bg-[#333333] text-[#f5e6c8] rounded-full">
-                    <Smartphone size={24} />
-                  </div>
-                  <span className="font-bold">iOS/Swift</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 flex items-center justify-center bg-[#333333] text-[#f5e6c8] rounded-full">
@@ -386,10 +357,6 @@ export default function Portfolio() {
                   <span className="font-bold">Android/Kotlin</span>
                 </div>
               </div>
-
-              <Button className="bg-[#333333] text-[#f5e6c8] hover:bg-[#ff6b6b] border-2 border-[#333333]">
-                VIEW MOBILE APPS
-              </Button>
             </div>
 
             <div className="md:w-1/2 flex justify-center">
@@ -440,7 +407,7 @@ export default function Portfolio() {
           <div className="flex flex-col md:flex-row gap-12 items-center">
             <div className="md:w-1/2">
               <div className="inline-block bg-[#ff6b6b] text-[#f5e6c8] px-3 py-1 mb-4 text-sm">
-                EXPERTISE
+                Intermediate
               </div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
                 IOT DEVELOPMENT<span className="text-[#ff6b6b]">_</span>
@@ -484,10 +451,6 @@ export default function Portfolio() {
                   <span className="font-bold">Sensors</span>
                 </div>
               </div>
-
-              <Button className="bg-[#ff6b6b] text-[#f5e6c8] hover:bg-[#ff6b6b]/80 border-2 border-[#ff6b6b]">
-                VIEW IOT PROJECTS
-              </Button>
             </div>
 
             <div className="md:w-1/2">
@@ -540,29 +503,14 @@ export default function Portfolio() {
                         <Cpu size={24} className="text-[#ff6b6b]" />
                       </div>
                     </div>
-
-                    <div className="grid grid-cols-2 gap-4">
-                      <Button
-                        variant="outline"
-                        className="border-[#ff6b6b] text-[#ff6b6b] hover:bg-[#ff6b6b] hover:text-[#1a1a1a]"
-                      >
-                        RESTART
-                      </Button>
-                      <Button className="bg-[#ff6b6b] text-[#1a1a1a] hover:bg-[#ff6b6b]/80">
-                        CONFIGURE
-                      </Button>
-                    </div>
                   </div>
 
                   <div className="flex items-center justify-between bg-[#111111] p-3 rounded-lg">
                     <div className="flex items-center gap-2">
                       <div className="w-3 h-3 rounded-full bg-[#ff6b6b] animate-pulse"></div>
-                      <span className="text-xs text-[#f5e6c8]/60">
-                        LIVE DATA
-                      </span>
-                    </div>
-                    <div className="text-xs font-mono text-[#f5e6c8]/60">
-                      ESP32-DEVKIT-V1
+                      <div className="text-xs font-mono text-[#f5e6c8]/60">
+                        ESP32-DEVKIT-V1
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -578,7 +526,7 @@ export default function Portfolio() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0">
               <h2 className="text-xl font-bold tracking-wider mb-2">
-                64BIT.DEV
+                faishaltsq
               </h2>
               <p className="text-sm text-[#f5e6c8]/70">
                 © {new Date().getFullYear()} All Rights Reserved
@@ -586,13 +534,13 @@ export default function Portfolio() {
             </div>
 
             <div className="flex gap-6">
-              <Link href="#" className="text-[#f5e6c8] hover:text-[#ff6b6b]">
+              <Link href="https://github.com/faishaltsq" target="_blank" className="text-[#f5e6c8] hover:text-[#ff6b6b]">
                 <Github size={20} />
               </Link>
-              <Link href="#" className="text-[#f5e6c8] hover:text-[#ff6b6b]">
+              <Link href="https://www.linkedin.com/in/muhammad-faishal-tsaqief-7775b3248/" target="_blank" className="text-[#f5e6c8] hover:text-[#ff6b6b]">
                 <Linkedin size={20} />
               </Link>
-              <Link href="#" className="text-[#f5e6c8] hover:text-[#ff6b6b]">
+              <Link href="mailto:faishaltsq@gmail.com" target="_blank" className="text-[#f5e6c8] hover:text-[#ff6b6b]">
                 <Mail size={20} />
               </Link>
             </div>
